@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1bcb2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+.btn{
+    width: 80px;
+    background-color: #588061;
+    transition: all 0.4s;
+    margin: 10px;
+    border-radius: 0;
+    box-shadow: #868686 7px 10px 15px;
+}
+.btn:hover{
+    width: 90px;
+    background-color: #7c946f;
+}
+.card img{
+    border-radius: 10px;
+    width: 9rem;
+}
+.card p{
+    font-size: 15px;
+}
+.card h4{
+    font-weight: bolder;
+}
